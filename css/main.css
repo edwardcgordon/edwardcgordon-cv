@@ -1,0 +1,277 @@
+/*************************
+General
+*************************/
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#wrapper {
+  /* max-width: 680px; */
+  margin: 0 auto;
+  padding: 0 10%;
+  line-height: 140%;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+/*************************
+CV page
+*************************/
+
+/*************************
+TOC Sidebare
+*************************/
+.toc {
+  position: fixed;
+  width: 20%;
+}
+
+.toc ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.toc ul ul {
+  margin: 4px 0 0 0;
+}
+
+.toc ul li {
+  padding: 0 0 0 5px;
+}
+
+/*************************
+CV main section
+*************************/
+section.cv {
+  margin: 0 0 0 25%;
+}
+
+.CV-heading {
+  font-size: 4em;
+  margin: 0 0 25px;
+}
+
+.CV-section {
+  font-size: 2em;
+  margin: 40px 0 0 0;
+}
+
+.CV-date {
+  margin: 10px 0 0 0;
+}
+
+small {
+  font-style: oblique;
+  font-size: 0.7em;
+}
+
+.skill-item {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+/*************************
+Header
+*************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 15px 0;
+  font-size: 5em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 2em;
+  margin: -5px 0 0 ;
+  font-weight: normal;
+}
+
+/*************************
+Navigation
+*************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+
+}
+
+/*************************
+Footer
+*************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+/*************************
+Page Portfolio
+*************************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  max-width: 250px;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75.em;
+  color: #0B3C4F;
+  border-left: 10px solid;
+}
+
+/*************************
+Page About
+*************************/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+/*************************
+Page Contact
+*************************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+
+/****************
+Color
+*****************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+h1, h2 {
+  color: #FFF;
+}
+
+.CV-heading {
+  color: #FF093A;
+}
+
+.CV-section {
+  color: #999;
+}
+
+.skill-item {
+  color: #999;
+}
+
+/* red header */
+header {
+  background: #FF093A;
+  border: #0971B2;
+}
+
+/* nav background for mobile devices */
+nav {
+  background: #09BAFF;
+}
+
+/* nav link color */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #1887B2;
+}
+
+a {
+  color: #FF093A;
+}
