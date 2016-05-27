@@ -106,7 +106,7 @@ header {
 }
 
 h1 {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 15px 0;
   font-size: 5em;
   font-weight: normal;
@@ -261,13 +261,13 @@ h1, h2 {
 
 /* red header */
 header {
-  background: #FF093A;
+  background: linear-gradient(135deg, #030F3E 60%, #031F8A);
   border: #0971B2;
 }
 
 /* nav background for mobile devices */
 nav {
-  background: #09BAFF;
+  background: #ED4514;
 }
 
 /* nav link color */
