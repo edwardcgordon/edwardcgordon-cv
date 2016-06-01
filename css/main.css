@@ -141,8 +141,7 @@ nav li {
 
 nav a {
   font-weight: 800;
-  padding: 15px 10px;
-
+  padding: 10px 10px;
 }
 
 /*************************
@@ -188,6 +187,15 @@ Page Portfolio
   font-size: 0.75.em;
   color: #0B3C4F;
   border-left: 10px solid;
+  border-color: #e74c3c;
+}
+
+#wrapper-portfolio {
+  /* max-width: 680px; */
+  margin: 0 auto;
+  padding: 0 15%;
+  line-height: 140%;
+  display: inline-block;
 }
 
 /*************************
@@ -239,35 +247,35 @@ Color
 
 /* site body */
 body {
-  background-color: #fff;
-  color: #999;
+  background-color: #ecf0f1;
+  color: #7f8c8d;
 }
 
 h1, h2 {
-  color: #FFF;
+  color: #ecf0f1;
 }
 
 .CV-heading {
-  color: #FF093A;
+  color: #2c3e50;
 }
 
 .CV-section {
-  color: #999;
+  color: #e74c3c;
 }
 
 .skill-item {
-  color: #999;
+  color: #e74c3c;
 }
 
 /* red header */
 header {
-  background: linear-gradient(135deg, #030F3E 60%, #031F8A);
+  background: linear-gradient(150deg, #1B436B, 87%, #e74c3c);
   border: #0971B2;
 }
 
 /* nav background for mobile devices */
 nav {
-  background: #ED4514;
+  background: linear-gradient(150deg, #143454, 83%, #e74c3c);
 }
 
 /* nav link color */
@@ -277,9 +285,10 @@ nav a, nav a:visited {
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #1887B2;
+  /* color: #e74c3c; */
+  background-color: #e74c3c;
 }
 
 a {
-  color: #FF093A;
+  color: #e74c3c;
 }
